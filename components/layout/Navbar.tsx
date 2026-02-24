@@ -43,15 +43,7 @@ export function Navbar({ onReset, isPremiumMode = false }: NavbarProps) {
                         </Link>
 
                         <div className="flex items-center gap-2 sm:gap-3 flex-shrink-0">
-                            <a
-                                href="https://github.com/KuekHaoYang/KVideo"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center rounded-[var(--radius-full)] bg-[var(--glass-bg)] border border-[var(--glass-border)] text-[var(--text-color)] hover:bg-[color-mix(in_srgb,var(--accent-color)_10%,transparent)] transition-all duration-200 cursor-pointer hidden sm:flex"
-                                aria-label="GitHub 仓库"
-                            >
-                                <Icons.Github size={20} />
-                            </a>
+                           
                             <Link
                                 href={settingsHref}
                                 className="w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center rounded-[var(--radius-full)] bg-[var(--glass-bg)] border border-[var(--glass-border)] text-[var(--text-color)] hover:bg-[color-mix(in_srgb,var(--accent-color)_10%,transparent)] transition-all duration-200 cursor-pointer"
